@@ -1,0 +1,109 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins; 
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+/* Font  */
+.container
+{
+    margin-top: 40px;
+     margin-left:6%;
+          
+}
+
+.navbar-container{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+ 
+}
+
+.navbar-container div img{
+  margin-top: 8px;
+     width:99px; 
+}
+
+
+.grow-list{
+    margin-right: auto;
+
+}
+
+
+.list{
+    display:flex;
+    list-style-type: none;
+    gap:35px;
+    font-size:15px;
+}
+
+.list-item{
+    color:#808080;
+    margin-left: 2%;
+    
+}
+.list-item:first-child{
+    color: #0D0D0D;
+    font-weight: 500;
+   
+}
+
+
+.button-group>.nav-button{
+    margin-right:131px;
+    background-color: #7341d6 ;
+    color:white;
+    padding:15px 33px ;
+    border-radius:11px;
+    cursor: grab;
+    border: none;
+}
+
+/* Left text  */
+
+.heading-text{
+    color: #27225e;
+    margin-top: 126px;
+    width:400px;
+    height:280px;
+    font-size: 45px;   
+}
+
+span{
+    color:#7341d6;
+}
+
+.description{
+ margin-top: -95px;
+    width:330px;
+    font-size:13px;
+    color: #808080;
+}
+
+.btn{
+    background-color:#7341d6;
+    border:none;
+    padding:17px 42px;
+    color:white;
+    border-radius: 12px;
+    margin-top: 48px;
+    cursor: grab;
+}
+
+/* Right Text */
+.banner-container>div>img{  
+    float: right;
+    margin-top:-450px;
+    height:550px;  
+    width: 872px;
+    
+}
