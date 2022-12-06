@@ -1,0 +1,113 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+  
+}
+
+
+body{
+    background-image: url('./assets/bg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:  #0D0D0D;
+    height: 10vh;
+    padding: 0 5%;
+    margin: 0 10%; 
+}
+
+.logo{
+    margin-right: 40px;
+    width: 70px;
+}
+
+.line{
+    border-left: 1px solid #B2B2B2;
+    width: 2px;
+    height: 40px;
+    margin-top: -40;
+}
+
+.grow-list{
+    margin: auto;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 190px;
+    font-family: 'Montserrat',sans-serif;
+    cursor: grab;
+    font-size: 13px;
+}
+.list-item:first-child::after{
+    content: '\02C5';
+    padding-left: 10px;   
+}
+
+
+.button-small{
+    background-color: #BA0CC5;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: grab;
+    border: none;
+    font-weight: 600;
+}
+
+.hero{
+    height: 90vh;
+    font-family:  sans-serif;
+  
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-heading{
+    font-size: 67px;
+    background: none;
+    margin: 0 20%;
+    padding-left: 125px;    
+}
+
+.hero-description{
+    font-size: 25px;
+    letter-spacing: px;
+    margin-top: 10px;   
+    background: none;
+}
+
+
+.button-large{
+    margin-top: 60px;
+    background-color: #BA0CC5;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 1px 1px 20px #620f68;
+}
