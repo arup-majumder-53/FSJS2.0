@@ -1,0 +1,183 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 5%;
+  }
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "orbitron";
+    
+}
+.navbar-container{
+    height: 10vh;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.navbar-container div img {
+    width: 137px;}
+
+ .list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #020202;
+    font-size: 22px;
+    font-weight: 500;
+  
+ }
+
+ .list-item:first-child {
+  font-weight: 850;
+   border-bottom: 3px solid #020202;
+   
+}
+ .button-group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+  .search-icon{
+   margin-right: 10px;
+   margin-bottom: -5px;
+   
+ 
+  }
+
+  .nav-button{
+    
+    padding: 10px 45px;
+    border-radius: 15px;
+    border: 3px solid #000000;
+    background-color: #fff;
+    font-size: 25px;
+  }
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.hero-container > div >img{
+   
+    height: 585px;
+    padding:48px 50px 50px 0;
+    z-index:2;
+    position: relative;
+}
+.star:nth-child(2){
+     position: absolute;
+     left:93% ;
+     top: 8%;
+ 
+}
+.star:nth-child(3){
+    position: absolute;
+    left: 42%;
+    bottom: 3%;
+
+
+} 
+.star>img{
+    width: 45px;
+}
+.square{
+     /* height: 30%; */
+    position: absolute;
+    left: 159px;
+    top: 290px;
+     
+}
+.square>img{
+    width: 294px;
+}
+
+.globe{
+    position: absolute;
+    left:50% ;
+    top: 10px;
+}
+
+.globe>img{
+     width: 60px;
+}
+
+
+.hero-container-right{
+  
+    width: 60%;
+    text-align: center;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.hero-heading{
+  font-size: 56px;
+  font-family: "Orbitron";
+  margin-bottom: 20px;
+  margin-top: 110px;
+}
+
+.hero-description{
+  margin:5px 40px;
+   font-size: 15px;
+  font-family: 'Poppins';
+  opacity: 0.7;
+}
+
+.button-email {
+  background-color: #fff;
+  color: #575757;
+  border: 3px solid #575757;
+  padding: 3px 24px;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Orbitron";
+  border-radius: 11px;
+  margin-right: 1rem;
+  margin-top: 90px;
+
+}
+
+.button-join {
+ 
+  border: 3px solid #000;
+  background-color: #000;
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 19px;
+  font-family: "Orbitron";
+  border-radius: 11px;
+  
+}
+
+.contact-heading{
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 80px;
+  padding-bottom: 9px;
+  opacity: 0.7;
+}
+
+.icons span>img {
+  width: 30px;
+  margin-left: 15px;
+
+}
