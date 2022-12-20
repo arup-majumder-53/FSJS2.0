@@ -5,6 +5,9 @@
     background: #F9F5ED;
     font-family:  "";
 }
+
+/* Navbar */
+
 nav{
     padding: 20px 10%;
     height: 15vh;
@@ -13,19 +16,18 @@ nav{
 nav ul {
     display: flex;
     align-items: center;
-    /* gap: 50px; */
+    
 
 }
 
 nav ul li {
     list-style: none;
     margin-right: 5%;
-    /* gap: 50px; */
     font-weight: 500;
 }
 
 
-/* CSS for HERO Section */
+/* Main Section */
 
 main{
     display: flex;
@@ -35,6 +37,8 @@ main{
     height: 85vh;
     
 }
+
+/* Left Section */
 
 .leftmain{
     width: 40%;
@@ -56,6 +60,9 @@ main{
     color: white;
     font-weight: 500;
 }
+
+/* Right Section */
+
 
 .rightmain{
     width: 60%;
