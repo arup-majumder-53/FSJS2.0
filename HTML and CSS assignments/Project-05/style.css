@@ -7,9 +7,11 @@
 body{
     max-width: 1440px;
     background-color: #F0F4F5;
-    margin: auto; /* Auto */
+    margin: auto; 
     overflow: hidden;
 }
+
+/* Navbar  */
 
 nav{
     height: 15vh;
@@ -32,7 +34,9 @@ nav ul li:first-child{
     color: #20BC7E;
 }
 
+
 /* Hero Section */
+
 main{
     display: flex;
     align-items: center;
@@ -94,7 +98,9 @@ main section {
     cursor: pointer;
 }
 
+
 /*  Right Side */
+
 .greenbox,  .yellowbox{
     position: absolute;
     right: 0;
