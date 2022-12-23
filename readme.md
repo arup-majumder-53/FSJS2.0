@@ -8,3 +8,6 @@
 5. [Project-05](./HTML%20and%20CSS%20assignments/Project-05/)(Medifine)
 6. [Project-06](./HTML%20and%20CSS%20assignments/Project-06/)(LAW landing page)
 
+## Class table by HTML
+  [Link](./practice/html%20video%20table/class%20table.html)
+
