@@ -8,7 +8,7 @@
 }
 
 body{
-   max-width: 100%;
+   max-width: 1440px;
     margin:  auto;
     font-family:'Open Sans', sans-serif;
     overflow-x: hidden;
@@ -276,4 +276,33 @@ width: 77px;
 .service-box{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 29px;
+	font-size: 27px;
+	text-align: center;
+	font-weight: 500;
+    gap: 30px;
+
+}
+.dollar{
+    border: 2px solid #d2cfcf;
+	background-color: #272727;
+	padding: 60px 70px ;
+	margin-top: 200px;
+}
+
+.cloud{
+    border: 2px solid #d2cfcf;
+	background-color: #716f6f;
+	padding: 60px 70px ;
+	margin-top: 10px;
+
+}
+
+.lock{
+    border: 2px solid #d2cfcf;
+	background-color: #272727;
+	padding: 60px 70px ;
+	margin-top: 200px;
+
 }
