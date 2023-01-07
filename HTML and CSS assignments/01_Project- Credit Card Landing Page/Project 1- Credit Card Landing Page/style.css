@@ -443,8 +443,7 @@ body{
 .custom-heading{
     position: absolute;
 	top: -430px;
-	left: 200px;
-	right: 200px;
+    padding: 0px 15%;
     font-weight:100 ;
     
 }
