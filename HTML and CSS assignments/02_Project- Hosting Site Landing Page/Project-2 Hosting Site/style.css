@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111010;
+    padding: 30px 120px;
+    
+}
+
+
+
+.nav-list{
+    list-style-type: none;
+	display: flex;
+    color: #9E9D9D;
+    gap: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+.nav-btn{
+    color: #eef6ff;
+	background-color: #0c8bfd;
+    padding: 14px 35px;
+    border-radius: 25px;
+    font-size: 17px;
+    
+}
+
+/* hero-section  */
+
+.hero{
+    color: #ffffff;
+    background-color: #111010;
+    padding: 65px 120px;
+    display: flex;
+    
+}
+
+
+.hero-left > h1{
+   font-size: 70px;
+   font-weight: 500;
+}
+
+.hero-left > h1 > span{
+    color: #0C8BFD;  
+}
+
+.hero-left >p{
+    padding: 40px 0px 40px 0px;
+    color: #6E6D6D;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 550px;    
+
+}
+
+.hero-left >button{
+    margin-top: 25px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.hero-btn-1{
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #0C8BFD;
+    
+}
+.hero-btn-2{
+    margin-left: 20px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    background: transparent;
+
+}
+
+  /* logo-container-section */
+
+  .logo-container{
+
+    background-color:#1D1C1C;
+    padding: 35px 150px ;
+ }
+
+ .brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+
+              /* service-section */
+
+ .service-section{
+    background-color: #ffffff;
+    padding: 140px 110px 120px 110px;
+
+ }
+
+ .service-text{
+    text-align: center;
+ }
+ .service-text >h1{
+    font-size: 60px;
+    font-weight: 500;
+    
+ }
+ .service-text >p{
+    font-size: 22px;
+    line-height: 1.5;
+	font-weight: 400;
+    color:  #ABABAB;
+    padding: 20px 370px 0px 370px;
+ }
+
+ .service-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+    
+    
+}
+
+
+
+.fast-box{
+    width: 30%;
+    border: 3px solid   #ABABAB;
+    border-radius: 30px;
+	background-color: transparent;
+	padding: 30px 20px 50px 20px;
+	margin-top: 100px;
+    transition: all .2s ease-in-out;
+    
+}
+
+.fast-box:hover{
+    transform: scale(1.1);
+}
+
+.fast-box >h2{
+    padding: 25px 0px;
+    
+}
+.fast-box >p{
+  color: #717171;
+  line-height: 1.6;
+  
+}
+
+
+.signal-box{
+    width: 30%;
+    border-radius: 30px;
+	background-color:#111010;
+	padding: 30px 20px 50px 20px;
+    transition: all .2s ease-in-out;
+    	
+}
+.signal-box:hover{
+    transform: scale(1.1);
+}
+
+.signal-box >h2{
+    color: #ffffff;
+    padding: 25px 0px;
+    
+}
+.signal-box >p{
+  color: #717171;
+  line-height: 1.5;
+  
+}
+
+
+.heart-box{
+    width: 30%;
+    border: 3px solid  #ABABAB;
+    border-radius: 30px;
+	background-color: transparent;
+	padding: 30px 20px 50px 20px;
+	margin-top: 100px;
+    transition: all .2s ease-in-out;
+
+}
+
+.heart-box:hover{
+    transform: scale(1.1);
+}
+
+.heart-box >h2{
+    padding: 25px 0px;
+    
+}
+.heart-box >p{
+  color: #717171;
+  line-height: 1.5; 
+}
+
+.business-heading >h1{
+    font-size: 60px;
+    font-weight: 500;
+    padding-right: 5%;
+    padding-top: 30px;
+}
+
+.business-section{
+    padding-top: 70px;
+    display: flex;
+    gap: 3%;
+    
+}
+
+.business-left{
+    width: 55%;
+}
+
+.feature-types{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid#ABABAB;
+    margin-bottom: 5%;
+    padding: 35px 25px;
+    border-radius: 60px;
+    font-size: 20px;
+    
+}
+.feature-types >h2{
+    font-weight: 500;
+}
+
+.feature-types:nth-child(1){
+   background-color: #0C8BFD;
+   color: #ffffff;
+
+}
+
+
+.business-right{
+   width: 42%;
+   padding: 20px 0 20px 0;
+   background-color: #111010;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-bottom: 35px;
+
+
+}
+
+.features{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4%;
+    background-color: #292828;
+    color: #ffffff;
+    padding: 25px 20px;
+    margin: 0 20px;
+    border-radius: 50px;
+}
+.features >h3{
+    font-weight: 400;
+}
+
+.dot-btn{
+    background-color: #ffffff;
+    border: none;
+    padding: 7px 7px;
+	border-radius: 50%;
+}
+
+
+
+         /* hosting-section */
+
+
+.hosting{
+    background-color: #111010;
+    padding: 140px 110px ;
+}
+
+.hosting-heading{
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+.hosting-heading >h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: -60px;
+}
+
+.hosting-plans{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.hosting-plan-box{
+    width: 31.5%;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 35px;
+    transition: all .2s ease-in-out;
+    
+}
+
+.standard-box{
+    background-color: #0C8BFD;
+    color: #ffffff;
+}
+
+
+.hosting-plan-box >h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+.hosting-plan-box >h1{
+    font-size: 50px;
+    margin: 25px 0;
+
+}
+
+.hosting-plan-box > h1>span{
+    font-size: 35px;
+    color: #888787;
+    font-weight: 500;
+}
+.standard-box>h1>span{
+    color: #85C5FE;
+}
+
+
+
+.hosting-plan-box >p{
+    width: 90%;
+    color: #434242;
+     font-weight: 700;
+     line-height: 1.5;
+     margin-bottom: 25px;
+}
+.standard-box >p{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.hosting-box-ul{
+    color: #595858;
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+
+
+.standard-box-ul {
+    color: #ffffff;
+    
+}
+.regular-ul{
+    margin-top: 53px;
+}
+
+.hosting-box-ul>li{
+    margin-top: 25px;
+}
+
+.hosting-box-btn{
+    
+    font-size: 17px;
+    font-weight: 500;
+    padding: 18px 130px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 35px;
+    color: #ffffff;
+    background-color: #0C8BFD;
+}
+
+.standard-btn{
+    background-color: #ffffff;
+    color: #0C8BFD;
+}
+
+.hosting-plan-box:hover{
+    transform: scale(1.1);
+}
