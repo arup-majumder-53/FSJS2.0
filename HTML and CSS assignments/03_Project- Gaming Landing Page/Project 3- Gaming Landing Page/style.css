@@ -542,3 +542,40 @@ gap: 90px;
 }
 
 
+/* footer-section */
+
+footer{
+    background-color: #000309;
+    color: #ffffff;
+    padding: 80px 110px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.footer-icon-part >p{
+    padding: 10px 10px 40px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+	opacity: 0.5;
+
+}
+
+.social-site-icons >img {
+    margin-right: 10px;
+}
+
+.footer-lists-part >h4{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.footer-lists-part >ul >li{
+    list-style-type: none;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: 15px;
+}
