@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart animation</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+
+            background-color: rgb(210, 218, 224);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .heart{
+            font-size: 12rem;
+            animation: heart .5s infinite alternate
+            linear;
+   
+
+        }
+        @keyframes heart {
+            from {
+                transform: scale(0.7);
+
+            }
+            to{
+                transform: scale(1);
+            }
+         
+            
+        }
+
+        .smile{
+            font-size: 8rem;
+
+        }   
+    </style>
+</head>
+<body>
+    
+    <div class="heart smile">🥺</div>
+    <div class="heart">❤️</div>
+    
+    
+</body>
+</html>
