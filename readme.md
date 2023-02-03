@@ -9,13 +9,15 @@
 5. [Project-05](./HTML%20and%20CSS%20assignments/Project-05/)(Medifine)
 6. [Project-06](./HTML%20and%20CSS%20assignments/Project-06/)(LAW landing page)
 7. [Project-07](./HTML%20and%20CSS%20assignments/01_Project-%20Credit%20Card%20Landing%20Page/Project%201-%20Credit%20Card%20Landing%20Page/)(Credit Card landing Page)
-8. [Project-08](./HTML%20and%20CSS%20assignments/02_Project-%20Hosting%20Site%20Landing%20Page/Project-2%20Hosting%20Site/)(Hosting Site Landing Page)-[🚀 Live Link](https://hosting-site-landing-page-project.netlify.app/)
+8. [Project-08](./HTML%20and%20CSS%20assignments/02_Project-%20Hosting%20Site%20Landing%20Page/Project-2%20Hosting%20Site/)(Hosting Site Landing Page)-[🚀 Live Link](https://hosting-site-landing-page-by-arup.netlify.app)
+
+9. [Project-09](./HTML%20and%20CSS%20assignments/03_Project-%20Gaming%20Landing%20Page/Project%203-%20Gaming%20Landing%20Page/)(Gaming Landing Page)-[🚀 Live Link](https://gaming-landing-page-by-arup.netlify.app)
 
 
 
 
 ## Tailwind Projects
-  [VS Code Clone](https://visual-studio-code-clone-by-tailwind.netlify.app)
+  [VS Code Clone](./vscode-clone-by%20tailwind/)- [🚀 Live Link](https://visual-studio-code-clone-by-tailwind.netlify.app)
 
 
 
