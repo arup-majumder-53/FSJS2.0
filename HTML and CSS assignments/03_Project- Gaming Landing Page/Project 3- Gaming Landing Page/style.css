@@ -47,6 +47,15 @@ body{
     margin-top: 5px;
     
 }
+
+.nav-lists > li:hover{
+    cursor: pointer;
+    color:#F4694C;
+}
+
+
+
+
 .nav-btn{
     margin-left: auto;
     display: flex;
@@ -59,11 +68,20 @@ body{
 .nav-signin-btn{
     background: transparent;
     color: #ffffff;
-    border: none;
+    border: 2px solid transparent;
+    padding: 15px 35px;
     
 }
+
+.nav-signin-btn:hover{
+    border: 2px solid #ffffff;
+	cursor: pointer;
+    transition: all 0.6s;
+
+}
+
 .nav-signup-btn{
-    background: #F4694C;
+    background-color: #F4694C;
     color: #ffffff;
     border: none;
     font-weight: 700;
@@ -75,6 +93,7 @@ body{
 .nav-signup-btn:hover{
     color:#F4694C;
     background-color: #ffffff;
+	transition: all 0.6s;
     font-weight: 700;
     cursor: pointer;
 }
@@ -116,10 +135,31 @@ body{
     
 
 }
+
+.Get-started-btn:hover{
+    color:#F4694C;
+    background-color: #ffffff;
+	transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+
+
+
 .Learn-more-btn{
     background-color: transparent;
     border: 2px solid #ffffff;
     margin-left: 18px;
+
+}
+
+.Learn-more-btn:hover{
+    color:#F4694C;
+    background-color: #ffffff;
+	transition: all 0.5s;
+    cursor: pointer;
+
 
 }
 
@@ -179,7 +219,14 @@ body{
 
 .cards{
     width: 23%;
+    transition: all 0.3s ease-in-out;
 }
+
+.cards:hover{
+    
+    transform: scale(1.05);
+}
+
 
 .card-1{
     background-image: url("./Assets/Photos/image\ 2.png");
@@ -295,9 +342,17 @@ gap: 90px;
     padding: 17px 40px;
     color: #ffffff;
     background-color: #F4694C;
-    border: none;
+    border: 2px solid transparent;
     font-size: 17px;
     cursor: pointer;
+
+}
+
+.war-game-explore-btn:hover{
+    color:#F4694C;
+    background-color: #ffffff;
+	transition: all 0.5s;
+    border: 2px solid #F4694C;
 
 }
 
@@ -312,6 +367,14 @@ gap: 90px;
     margin-left: 18px;
     cursor: pointer;
 }
+
+.war-game-learn-btn:hover{
+    color: #ffffff;
+    background-color: #F4694C;
+    border: 2px solid #ffffff;
+    transition: all 0.5s;
+}
+
 
     /* game-recomendation section  */
 
@@ -426,11 +489,18 @@ gap: 90px;
 	color: #ffffff;
     padding: 17px 40px;
     font-size: 17px;
-    border: none;
+    border: 2px solid #ffffff;
     cursor: pointer;
     margin-top: 5px;
 }
 
+.recommended-game-info > button:hover{
+    color:#F4694C;
+    background-color: #ffffff;
+	transition: all 0.5s;
+    border: 2px solid #F4694C;
+    
+}
 
 
 /* Most Played Games Of The Year section  */
@@ -541,6 +611,14 @@ gap: 90px;
 
 }
 
+.experience-btn:hover{
+    color:#F4694C;
+    background-color: #ffffff;
+	transition: all 0.5s;
+    
+    
+}
+
 
 /* footer-section */
 
@@ -578,4 +656,9 @@ footer{
     font-weight: 400;
     opacity: 0.5;
     margin-top: 15px;
+}
+
+.footer-lists-part >ul >li:hover{
+    cursor: pointer;
+    color:#F4694C;
 }
