@@ -12,6 +12,7 @@
 8. [Project-08](./HTML%20and%20CSS%20assignments/02_Project-%20Hosting%20Site%20Landing%20Page/Project-2%20Hosting%20Site/)(Hosting Site Landing Page)-[🚀 Live Link](https://hosting-site-landing-page-by-arup.netlify.app)
 
 9. [Project-09](./HTML%20and%20CSS%20assignments/03_Project-%20Gaming%20Landing%20Page/Project%203-%20Gaming%20Landing%20Page/)(Gaming Landing Page)-[🚀 Live Link](https://gaming-landing-page-by-arup.netlify.app)
+10. [Project-10](./HTML%20and%20CSS%20assignments/04_Project-%20Real%20Estate%20Landing%20Page/)(Real State Landing Page)-[🚀 Live Link](https://real-estate-landing-page-by-arup.netlify.app)
 
 
 
