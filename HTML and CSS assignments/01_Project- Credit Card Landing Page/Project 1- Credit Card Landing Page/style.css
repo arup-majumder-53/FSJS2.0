@@ -181,21 +181,34 @@ body{
 
  .plus{
     color: #fc38f1;
- }
-
- .back-card{
-    position: absolute;
-    top: 50px;
-    left: 36%;
     
  }
-
- .front-card{
+ .card-img {
+    height: 900px;
+    overflow: hidden;
     position: absolute;
-    left: 50%;
-	top: 120px;
+    left: 520px;
+    top: -50px;
+    
+
+   } 
+
+
+  
+.back-card{
+    position: relative;
+    top: 70px;
+    
    
  }
+
+.front-card{
+    position: absolute;
+    left: 24%;
+	top: 141px;
+    
+}
+
 
 
        /* logo-container-section */
