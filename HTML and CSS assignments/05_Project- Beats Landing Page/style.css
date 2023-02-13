@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f10;
+    color: #f2f2f3;;
+   
+}
+
+
+   /* top-section */
+
+.heading-part{
+
+    padding: 30px 130px 0px 340px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.beats-logo{
+    height: 25px;
+    margin-top: 8px;
+}
+
+.main-img{
+    position: relative;
+    top: -150px;
+    height: 530px;
+}
+
+.heading-right{
+    padding-left: 7%;
+    
+}
+
+nav{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.item-list{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.item-list > li{
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item-list > li:hover{
+    opacity: 0.5;
+    transform: scale(1.02);
+}
+
+.nav-btn{
+    background-color: #1e1e21;
+    padding: 12px 44px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 300px;
+    opacity: 0.8;
+    color: #f2f2f3;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nav-btn:hover{
+    color:  #1e1e21;
+    background-color:#adafb0;
+    transform: scale(1.01);
+
+}
+
+
+
+
+.heading-text-part{
+    margin-top: 30px;
+}
+.heading-text-part > img{
+    height: 65px;
+    padding-left: 40px;
+}
+.heading-text-part > h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.heading-text-part > h4{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.heading-text-part > p{
+    margin-top: 15px;
+    margin-bottom: 32px;
+    padding-right: 300px;
+    font-size: 12px;
+    font-weight: 200px;
+    opacity: 0.7;
+    line-height: 2;
+
+}
+
+.add-to-bag-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #1e1e21;;
+    padding: 12px 18px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 200px;
+    color: #f2f2f3;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.add-to-bag-btn:hover{
+    color:  #1e1e21;
+    background-color:#808689;
+    transform: scale(1.01);
+
+}
+
+.add-to-bag-btn > img{
+    height: 17px;
+}
+
+.add-to-bag-btn >span{
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+
+
+
+
+
+                /* logo-section */
+
+
+.logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    padding-inline: 290px;
+}
+
+.logo-section >img{
+    height: 22px;
+}
+
+
+
+
+
+               /* Specs Section  */
+
+
+
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 20px;
+
+}               
+
+
+
+.specs-logo{
+    margin-left: 25%;
+    height: 55px;
+}
+
+.specs-main{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+.specs-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+
+.features > img{
+    height: 18px;
+   
+}
+
+.features > h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.features > p{
+    font-size: 9px;
+    font-weight: 200px;
+    opacity: 0.7;
+    padding-top: 3px;
+    
+}
+
+.headphone,.Microphone{
+    margin-left: 15%;
+    
+}
+
+
+
+
+
+            /* Case Section */
+
+
+
+.case{
+   margin-left: 470px;
+}
+
+.case-logo{
+    margin-left: 17%;
+    height: 38px;
+}
+
+.case-main{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 60px 0px;
+}
+.case-main > img {
+    height: 300px;
+
+}
+
+.case-main-right > p{
+    padding-right: 73%;
+    font-size: 12px;
+    font-weight: 200px;
+    opacity: 0.7;
+    line-height: 2;
+    margin-bottom: 40px;
+
+}
+
+.more-info-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #1e1e21;;
+    padding: 10px 17px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 11px;
+    opacity: 0.8;
+    font-weight: 200px;
+    color: #f2f2f3;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.more-info-btn:hover{
+    color:  #1e1e21;
+    background-color:#898c8e;
+    transform: scale(1.01);
+
+}
+
+
+.more-info-btn > img{
+    height: 18px;
+}
+
+
+
+
+
+          /* buy now section  */
+
+
+.immerse{
+
+    background-color: #181a1b;
+    margin:  100px 350px;
+    display: flex;
+    align-items: center;
+    padding: 35px 45px;
+    border-radius: 10px;
+}
+
+.immerse > img{
+    height: 180px;
+
+}
+.immerse-left{
+    padding-left: 50px;
+
+}
+.immerse-left > h3{
+    width: 70%;
+    font-weight: 500;
+}
+
+.immerse-left > p{
+    font-size: 12px;
+    font-weight: 200px;
+    opacity: 0.7;
+    margin: 10px 0px;
+}
+
+.buy-now-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 19px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 200px;
+    color: #f2f2f3;
+    opacity: 0.8;
+    background-color: #0d0d0e;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.buy-now-btn:hover{
+    color:  #1e1e21;
+    background-color:#adb0af;
+    
+}
+
+.buy-now-btn > img {
+    height: 18px;
+
+}
+
+
+
+
+              /* choose your style part */
+
+
+.product-logo {
+    margin-left: 40%;
+    margin-bottom: 60px;
+
+}
+     
+
+.product-logo >img {
+    height: 105px;
+
+}
+
+
+.headphone-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px 35px;
+    padding: 20px 450px;
+    margin-left: 35px;
+}
+
+.headphone-card {
+    background-color: #181a1b;
+    height: 120px;
+    width: 120px;
+    border-radius: 7px;
+    transition: all 0.4s ease-out;
+}
+.headphone-card:hover{
+    transform: scale(1.08);
+}
+
+
+.headphone-card > img {
+    height: 100px;
+    position: relative;
+    top: -38px;
+    left: 22%;
+
+}
+
+.card-text{
+    position: relative;
+    top: -30px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.card-text > div > h4{
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 3px;
+
+}
+.card-text div p{
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.bag-btn{
+    margin-top: 6px;
+    background-color: #0d0d0e;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.bag-btn:hover{
+    background-color: #888e8c;
+}
+
+
+.bag-btn >img{
+    height: 12px;
+}
+
+
+
+
+
+                /* footer part */
+
+                
+footer{
+    padding: 90px 120px 200px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.beats-logo-img{
+    height: 25px;
+
+}
+
+.footer-list >h3{
+
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+
+}
+
+.footer-list > ul >li{
+    list-style: none;
+    font-size: 11px;
+    font-weight: 300px;
+    opacity: 0.7;
+    padding-top: 8px;  
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.footer-list > ul >li:hover{
+    opacity: 0.3;
+
+
+}
+
+.email-social{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.email-input >input{
+    background-color:  #181a1b;
+    color: #f2f2f3;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 16px;
+    width: 290px;
+
+}
+
+::placeholder{
+    color: #f2f2f3;
+    opacity: 0.8;
+}
+
+.Subscribe-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 200px;
+    color: #f2f2f3;
+    opacity: 0.8;
+    background-color: #0d0d0e;
+    position: relative;
+    left: 159px;
+    top: -43px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.Subscribe-btn:hover{
+    color: #1e1e21;
+    background-color:#adb0af;
+
+}
+
+.social-site-icons >img{
+    padding-right: 7px;
+}
+
+
+.uparrow-img{
+    margin-top: 10%;
+}
+.uparrow-img >img{
+    
+    height: 25px;
+}
