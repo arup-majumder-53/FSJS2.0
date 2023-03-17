@@ -35,8 +35,8 @@ Change input placeholder value Search to Search My Project.
 **Solution**      
       
 
-    let input = document.querySelector("input");
-    input.placeholder = "Search My Project"
+      let input = document.querySelector("input");
+      input.placeholder = "Search My Project"
 
 
 **Task 3**
@@ -49,9 +49,9 @@ Change the "a Freelancer" and " National and Internation Client" to "ineuron int
 
 // changing text
 
-    let span = document.querySelectorAll(".hero-left-section p span");
-    span[1].innerText = "an employee";
-    span[2].innerText = "ineuron inteligence Pvt Ltd.";
+      let span = document.querySelectorAll(".hero-left-section p span");
+      span[1].innerText = "an employee";
+      span[2].innerText = "ineuron inteligence Pvt Ltd.";
 
 
 // displaying social icons
@@ -69,8 +69,8 @@ Change the "Avtar" image with the image of "Hitesh Sir"
 
 **Solution**        
 
-    let hsimg =document.querySelector(".hero-right-section>img");
-     hsimg.src ="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
+       let hsimg =document.querySelector(".hero-right-section>img");
+       hsimg.src ="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
 
 
 
@@ -82,10 +82,10 @@ Append Support-Me Button
 
 **Solution**    
     
-    let Supportbtn = document.createElement("button");
-    Supportbtn.innerText = "Support Me";
-    let btn = document.querySelector('.hero-right-section-btns');
-    btn.appendChild(Supportbtn);
+       let Supportbtn = document.createElement("button");
+       Supportbtn.innerText = "Support Me";
+       let btn = document.querySelector('.hero-right-section-btns');
+       btn.appendChild(Supportbtn);
 
 
 # DOM Assignment 2
@@ -98,8 +98,8 @@ Append Support-Me Button
 
  **Solution** 
 
-      let heading = document.querySelectorAll(".accordian h3");
-      heading.forEach(h3 => {h3.style.backgroundColor = "#dadaf8"});
+       let heading = document.querySelectorAll(".accordian h3");
+       heading.forEach(h3 => {h3.style.backgroundColor = "#dadaf8"});
 
  **Task 2**
 
@@ -109,23 +109,23 @@ Append Support-Me Button
 
 **Solution**
     
-    let parent = document.querySelector(".accordian-wrapper");
-    let element = document.createElement("div");
-    element.classList.add("accordian");
+       let parent = document.querySelector(".accordian-wrapper");
+       let element = document.createElement("div");
+       element.classList.add("accordian");
 
-    let header = document.createElement("h3");
-    header.innerText ="skills";
+       let header = document.createElement("h3");
+       header.innerText ="skills";
 
-    let paragraph = document.createElement("p");
-    paragraph.innerText = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over GitHub";   
-    paragraph.style.display = "block"; 
-   
-    element.appendChild(header);
-    element.appendChild(paragraph);
-    parent.appendChild(element);
-    
-    heading = document.querySelectorAll(".accordian h3");
-    heading.forEach(h3 => {h3.style.backgroundColor = "#dadaf8"});
+       let paragraph = document.createElement("p");
+       paragraph.innerText = "I posses a very good command over the Full Stack      Development technologies like MERN which can be seen in my work over GitHub";   
+       paragraph.style.display = "block"; 
+       
+       element.appendChild(header);
+       element.appendChild(paragraph);
+       parent.appendChild(element);
+       
+       heading = document.querySelectorAll(".accordian h3");
+       heading.forEach(h3 => {h3.style.backgroundColor = "#dadaf8"});
 
 
 
@@ -141,15 +141,15 @@ Change the placeholder values according to the given image.
 
 // for output board
 
-    document.querySelector(".enterName").placeholder = "FSJS 2.0";
-    document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
-    document.querySelector(".enterMessage").placeholder = "Hello World";
+       document.querySelector(".enterName").placeholder = "FSJS 2.0";
+       document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
+       document.querySelector(".enterMessage").placeholder = "Hello World";
 
 // for input board
 
-    document.querySelector(".userName").placeholder = "FSJS 2.0";
-    document.querySelector(".userEmail").placeholder = "fsjs@ineuron.ai";
-    document.querySelector(".userMessage").placeholder = "Hello World";
+       document.querySelector(".userName").placeholder = "FSJS 2.0";
+       document.querySelector(".userEmail").placeholder = "fsjs@ineuron.ai";
+       document.querySelector(".userMessage").placeholder = "Hello World";
 
     
 
@@ -165,21 +165,21 @@ Change the character names then Change background and text color at the bottom o
 
 //Changing the character names
     
-    document.querySelector(".clash-card__level--archer").nextElementSibling.innerHTML = "The Archer";
-    document.querySelector(".clash-card__level--goblin").nextElementSibling.innerHTML = "The Goblin";
+       document.querySelector(".clash-card__level--archer").nextElementSibling.   innerHTML = "The Archer";
+       document.querySelector(".clash-card__level--goblin").nextElementSibling.   innerHTML = "The Goblin";
 
 // Changing background color at the bottom of the cards
 
-    document.querySelector(".clash-card__unit-stats--barbarian").style.backgroundColor = "#EC9B3B";
-    document.querySelector(".clash-card__unit-stats--archer").style.backgroundColor = "#EE5487"; 
-    document.querySelector(".clash-card__unit-stats--giant").style.backgroundColor = "#F6901A"; 
-    document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor = "#82BB30"; 
-    document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor = "#4FACFF";
+       document.querySelector(".clash-card__unit-stats--barbarian").style.   backgroundColor = "#EC9B3B";
+       document.querySelector(".clash-card__unit-stats--archer").style.backgroundColor    = "#EE5487"; 
+       document.querySelector(".clash-card__unit-stats--giant").style.backgroundColor    = "#F6901A"; 
+       document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor    = "#82BB30"; 
+       document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor    = "#4FACFF";
 
 // changing text color at the bottom of the cards
 
-    document.querySelectorAll(".one-third").forEach(clr => {
-    clr.style.color = "#ffffff";})
+       document.querySelectorAll(".one-third").forEach(clr => {
+       clr.style.color = "#ffffff";})
 
 
 
@@ -196,30 +196,30 @@ Add "Pro Subscription" button next to "Contact" button then in the recipe sectio
 
 // adding button
 
-     let pros = document.querySelector(".btn");
-     let clon = pros.cloneNode(true);​
-     clon.innerText = "Pro Subscription"
-     pros.insertAdjacentElement("afterend", clon);
+       let pros = document.querySelector(".btn");
+       let clon = pros.cloneNode(true);​
+       clon.innerText = "Pro Subscription"
+       pros.insertAdjacentElement("afterend", clon);
 
 // adding recipe
 
-     let Chinese = document.createElement("a");
-     Chinese.innerHTML = "Chinese (7)"; 
-     document.querySelector(".tags-container div").appendChild(Chinese);
+       let Chinese = document.createElement("a");
+       Chinese.innerHTML = "Chinese (7)"; 
+       document.querySelector(".tags-container div").appendChild(Chinese);
 
 // changing the card text color
 
-     document.querySelectorAll(".recipe-name").forEach(clr => {
-    clr.style.color = "#8A2BE2";})
-     document.querySelectorAll(".recipe-disp").forEach(clr => {
-    clr.style.color = "#8A2BE2";})
+       document.querySelectorAll(".recipe-name").forEach(clr => {
+       clr.style.color = "#8A2BE2";})
+       document.querySelectorAll(".recipe-disp").forEach(clr => {
+       clr.style.color = "#8A2BE2";})
 
 // adding 6th card
 
-     let card = document.getElementsByClassName("card")[4];
-     let lastcard = card.cloneNode(true);
-     lastcard.innerHTML = "<h3>add 6th card here</h3>";
-     card.insertAdjacentElement("afterend", lastcard);
+       let card = document.getElementsByClassName("card")[4];
+       let lastcard = card.cloneNode(true);
+       lastcard.innerHTML = "<h3>add 6th card here</h3>";
+       card.insertAdjacentElement("afterend", lastcard);
 ​
 
 
@@ -236,8 +236,8 @@ Add Ineuron logo
 
 **Solution**
 
-     let inrn = document.querySelector("header img");              
-     inrn.src = "./assets/ineuron-logo.png";
+       let inrn = document.querySelector("header img");              
+       inrn.src = "./assets/ineuron-logo.png";
 
 
 **Task 2**
@@ -248,8 +248,8 @@ Add Ineuron logo
 
 **Solution**
 
-    let price = document.querySelector(".app_price span");
-    price.innerText = "$10";
+       let price = document.querySelector(".app_price span");
+       price.innerText = "$10";
 
 
 
@@ -267,14 +267,127 @@ Remove the languages that have 2.0 in their name
 
 **Solution**
 
-    let weblan = document.querySelectorAll(".main__languages > a");
-    weblan.forEach(a => {
-    if (a.innerText.includes("2.0")) {
-        a.style.display = "none"
-    }
-    })
+       let weblan = document.querySelectorAll(".main__languages > a");
+       weblan.forEach(a => {
+       if (a.innerText.includes("2.0")) {
+           a.style.display = "none"
+       }
+       })
 
 **Task 2**
 
 ![Task](./DOM%20P7/DOM%20P7/ass7.2-after.png)
 
+**Solution**
+
+       let weblan = document.querySelectorAll(".main__languages > a");
+       weblan.forEach(a => {
+       if (a.innerText.includes("2.0")) {
+           a.style.display = "none"
+       }
+       })
+
+**Task 2**
+
+![Task](./DOM%20P7/DOM%20P7/ass7.2-after.png)
+ 
+**Solution**
+    
+       let input = document.querySelector(".main__form-input"); 
+       input.disabled = false;
+
+       let submitBtn = document.querySelector(".main__form-btn"); 
+       submitBtn.disabled = false;
+
+
+       submitBtn.addEventListener('click', () => {
+           weblan.forEach(a => {
+          if (a.innerText.includes("2.0")) {
+          a.style.display = "inline"
+         }
+       })
+
+       });
+
+
+
+# DOM Assignment 8
+
+
+
+**Task 1**
+
+ add new h2 , horizontal line  then add  to the div and add  scrollbar functionality.
+
+![Task1](./DOM%20P8/DOM%20P8/ass8.1-after.png)
+
+**Solution**
+
+        const scrl = document.querySelector(".new");
+        scrl.style.overflow = "scroll"
+
+        const h2 = document.querySelector(".new-head");
+        let h2_prime = h2.cloneNode(true);
+        h2_prime.innerText = "This is my Custom Heading";
+        scrl.appendChild(h2_prime);
+        ​
+        let hr = document.querySelector(".hr-line"); 
+        let hr_prime = hr.cloneNode(true);   
+        scrl.insertBefore(hr_prime, h2_prime);
+
+
+**Task 2**
+
+remove the background imgage to white
+
+![Task2](./DOM%20P8/DOM%20P8/ass8.2-after.png)
+
+**Solution**
+
+        document.body.style.backgroundImage = "none";
+
+
+**Task 3**
+
+show the nav links to smaller devices
+
+![Task3](./DOM%20P8/DOM%20P8/ass8.3-after.png)
+
+**Solution**
+
+        const navlink = document.querySelector('.collapse');
+        navlink.style.display = "inline";
+
+
+
+
+# DOM Assignment 9
+
+
+**Task 1**
+
+change the color of the heading
+
+![Task1](./DOM%20P9/DOM%20P9/ass9.1-after.png)
+
+**Solution**
+
+        document.querySelector(".caption .title").style.color ="#DC143C";
+
+**Task 2**
+
+change the add-to-cart btn color on mouseover event
+
+![Task2](./DOM%20P9/DOM%20P9/ass9.2-after.png)
+
+**Solution**
+
+       const btn = document.querySelector(".add-to-cart"); 
+ 
+       btn.addEventListener("mouseover",() => {
+             btn.style.backgroundColor = "#DC143C";
+       })
+ 
+       btn.addEventListener("mouseout",() => {
+             btn.style.backgroundColor = "#3C8067";
+       })
