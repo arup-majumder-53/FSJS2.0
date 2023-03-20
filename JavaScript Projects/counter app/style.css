@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body {
+    background-color: rgb(181, 240, 240);
+}
+
+
+h1 {
+    font-size: 3rem;
+  letter-spacing:0.1rem;
+  color: rgb(196, 87, 101);
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+ 
+}
+
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 5rem;
+ 
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+ 
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+}
+.container {
+  text-align: center;
+}
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #E6425E;
+}
+.btn {
+    padding: 14px 25px;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: rgb(178, 103, 253);
+    color: #ffffff;
+    border: 3px solid rgb(233, 43, 157);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+ 
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(138, 43, 226);
+    color: rgb(101, 231, 109);
+}
