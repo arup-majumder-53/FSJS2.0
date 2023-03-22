@@ -22,6 +22,12 @@
   [VS Code Clone](./vscode-clone-by%20tailwind/)- [🚀 Live Link](https://visual-studio-code-clone-by-tailwind.netlify.app)
 
 
+## JavaScript Assignment
+ [JavaScript Assignment Question-Answers](./JavaScript%20Assignments/)
+
+
+
+
 
 
 ## Class table by HTML
