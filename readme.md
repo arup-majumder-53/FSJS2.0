@@ -25,6 +25,9 @@
 ## JavaScript Assignment
  [JavaScript Assignment Question-Answers](./JavaScript%20Assignments/)
 
+## DOM Assignment
+ [JavaScript DOM Assignment solutions ](./JavaScript%20Assignments/)
+
 
 
 
