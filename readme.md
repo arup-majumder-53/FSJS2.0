@@ -26,7 +26,7 @@
  [JavaScript Assignment Question-Answers](./JavaScript%20Assignments/)
 
 ## DOM Assignment
- [JavaScript DOM Assignment solutions ](./JavaScript%20Assignments/)
+ [JavaScript DOM Assignment solutions ](./DOM%20Assignment/DOM%20Assignments%202.0%20Batch%20copy/)
 
 
 
