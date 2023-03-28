@@ -1,5 +1,9 @@
 # Full Stack Javascript 2.0
 
+## Articles
+[Introduction to Web and HTML](https://arup53.hashnode.dev/introduction-to-web-and-html)
+
+
 ## HTML and CSS Assignment
 1. [Project-01](./HTML%20and%20CSS%20assignments/Project-01/)(SEO Master)
 

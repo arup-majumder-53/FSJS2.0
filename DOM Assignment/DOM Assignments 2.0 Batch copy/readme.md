@@ -117,7 +117,8 @@ Append Support-Me Button
        header.innerText ="skills";
 
        let paragraph = document.createElement("p");
-       paragraph.innerText = "I posses a very good command over the Full Stack      Development technologies like MERN which can be seen in my work over GitHub";   
+       paragraph.innerText = "I posses a very good command over the Full Stack 
+       Development technologies like MERN which can be seen in my work over GitHub";   
        paragraph.style.display = "block"; 
        
        element.appendChild(header);
