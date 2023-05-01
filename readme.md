@@ -1,7 +1,11 @@
 # Full Stack Javascript 2.0
 
 ## Articles
-[Introduction to Web and HTML](https://arup53.hashnode.dev/introduction-to-web-and-html)
+-[Introduction to Web and HTML](https://arup53.hashnode.dev/introduction-to-web-and-html)
+
+-[Selectors in CSS](https://arup53.hashnode.dev/selectors-in-css)
+
+-[JavaScript Array Methods](https://arup53.hashnode.dev/javascript-array-methods)
 
 
 ## HTML and CSS Assignment
